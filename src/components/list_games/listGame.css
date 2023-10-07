@@ -1,0 +1,113 @@
+.box_list{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box_list_header{
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0px -5px 15px black;
+    
+    
+}
+
+.box_list_info{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0px 2px 15px black;
+
+}
+
+
+
+.team1{
+    float: left;
+}
+
+.team2{
+    float: right;
+    
+}
+
+.lowerCase{
+    text-transform: lowercase;
+}
+
+.box_information_character{
+    padding-bottom: 20px;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text_summonerName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.text_summonerName p{
+    margin-left: 20px;
+    font-size: 15px;
+    margin: 0% auto 0% 5px;
+}
+
+
+.text_summonerName img{  
+    width: 50px;
+}
+.box_img_item{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.character{
+    border-radius: 50px ;
+    border: 3px solid aqua;
+}
+
+.box_img_item img{
+    
+    margin-left: 6px;
+    width: 31px;
+}
+
+.win{
+    color: green !important;
+}
+
+.lost{
+    color: red!important;
+}
+
+.sectionScore{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sectionScore p{
+    color: black;
+}
+
+.sectionScore .statusGame {
+    margin: 0% auto 0% 5px;
+    font-size: 20px;
+   
+}
+
+.sectionScore .kda {
+    margin: 0% auto 0% 20px; 
+}
+
+.sectionScore .lvl{
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+    align-items: center;    
+}
+
